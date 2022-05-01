@@ -277,7 +277,7 @@
   <body>
     <!--
           There are three types of list but first two types are most common
-          1.Unordered list, put dot at beginning of the list
+          1.Unordered list, put dot at beginning of the list 
           2.Ordered list, puts number, alphabet, roman number at the beginning of the list
           3.Description list, helps to add a list with description
       -->
@@ -317,11 +317,13 @@
     </ol>
     <!--Description list-->
     <!--dt: description item-->
-    <dt>Apples</dt>
-    <dd>-They are Red</dd>
-    <dt>Oranges</dt>
-    <!--dd:describe description-->
-    <dd>-They are orange</dd>
+    <dl>
+      <dt>Apples</dt>
+      <dd>-They are Red</dd>
+      <dt>Oranges</dt>
+      <!--dd:describe description-->
+      <dd>-They are orange</dd>
+    </dl>
   </body>
 </html>
 ```
